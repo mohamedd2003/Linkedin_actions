@@ -183,5 +183,10 @@
     "post_number": 37,
     "title": "Embedding space and static embeddings | Machine Learning",
     "summary": "شرح مفهوم الـ Embedding Space كآلية لتحويل الكلمات لمتجهات رقمية كثيفة تعبر عن العلاقات الدلالية والهندسية بين المفردات."
+  },
+  {
+    "post_number": 38,
+    "title": "What are AI agents? Definition, examples, and types | Google Cloud",
+    "summary": "توضيح الفرق الجوهري للـ AI Agents كأنظمة ذاتية التشغيل تعتمد على التفكير المنطقي (Reasoning)، واستخدام الأدوات الخارجية، والعمل الجماعي المتكامل لتنفيذ مهام معقدة."
   }
 ]
