@@ -188,5 +188,10 @@
     "post_number": 38,
     "title": "What are AI agents? Definition, examples, and types | Google Cloud",
     "summary": "توضيح الفرق الجوهري للـ AI Agents كأنظمة ذاتية التشغيل تعتمد على التفكير المنطقي (Reasoning)، واستخدام الأدوات الخارجية، والعمل الجماعي المتكامل لتنفيذ مهام معقدة."
+  },
+  {
+    "post_number": 39,
+    "title": "Chain of Thought Reasoning, the New LLM Breakthrough",
+    "summary": "يركز نموذج o1 على استهلاك وقت أطول في التفكير المنطقي (Inference-time compute) لتعزيز قدرات التحليل الذاتي وتقليل الأخطاء في المهام المعقدة."
   }
 ]
