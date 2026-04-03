@@ -198,5 +198,10 @@
     "post_number": 40,
     "title": "A Breakthrough for Large Language Models Arrives",
     "summary": "تحول نماذج الذكاء الاصطناعي من مجرد التنبؤ بالنصوص إلى \"التفكير المنطقي\" أثناء الاستنتاج (Inference) لتعزيز دقة حل المشكلات المعقدة."
+  },
+  {
+    "post_number": 41,
+    "title": "News - MIT Generative AI Impact Consortium",
+    "summary": "استخدام الذكاء الاصطناعي التوليدي لإنشاء توائم رقمية تتنبأ بانتشار أمراض المحاصيل وحماية الأمن الغذائي عبر تحليل البيانات البيولوجية والبيئية."
   }
 ]
