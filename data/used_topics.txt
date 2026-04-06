@@ -203,5 +203,10 @@
     "post_number": 41,
     "title": "News - MIT Generative AI Impact Consortium",
     "summary": "استخدام الذكاء الاصطناعي التوليدي لإنشاء توائم رقمية تتنبأ بانتشار أمراض المحاصيل وحماية الأمن الغذائي عبر تحليل البيانات البيولوجية والبيئية."
+  },
+  {
+    "post_number": 42,
+    "title": "Natural Language Processing | Stanford HAI",
+    "summary": "تطور الـ NLP من مجرد تحسين الدقة إلى تمكين النماذج من فهم السياق المعقد والاستنتاج عبر تقنيات الـ Transformers والتمثيل الديناميكي للبيانات."
   }
 ]
