@@ -13,18 +13,17 @@ class SearchEngine:
     def search_ai_topics(self):
         """البحث عن أحدث مواضيع AI و NLP و LLMs"""
         
-        queries = [
-            "new NLP models",
-            "LLMs breakthrough",
-            "AI Agents updates",
-            "tokens",
-            "transformer models",
-            "large language models",
-            "embeddings",
-            "fine tuning LLMs",
-            "generative AI news"
-        ]
-        
+     queries = [
+    "أحدث مميزات Next.js 16 والـ App Router",
+    "تطوير الـ Web Performance والـ Core Web Vitals",
+    "مستقبل الـ React Server Components و الـ Streaming",
+    "تحسين الـ Bundle Size والـ Tree Shaking في JavaScript",
+    "أفضل الممارسات لـ TypeScript في المشاريع الكبيرة",
+    "إدارة الـ State في React باستخدام Zustand و React Query",
+    "أدوات الـ UI Libraries والـ Headless Components الجديدة",
+    "تقنيات الـ Micro-Frontends والـ Module Federation",
+    "أخبار الـ Web Standards والـ CSS الحديثة (Container Queries)"
+]
         all_results = []
         
         for query in queries:
