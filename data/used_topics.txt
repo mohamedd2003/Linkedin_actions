@@ -208,5 +208,10 @@
     "post_number": 42,
     "post_title": "مستقبل الـ Web Browsers في معالجة الـ Heavy Frameworks",
     "post_summary": "إزاي الـ Chrome و Safari بيتطوروا عشان يقللوا استهلاك الميموري للـ Apps التقيلة اللي معمولة بـ React و Next.js."
+  },
+  {
+    "post_number": 43,
+    "title": "Next.js 16",
+    "summary": "تكامل \"Next.js\" مع مميزات \"React 19\" لتعزيز كفاءة الرينديرنج وتقليل حجم الجافا سكريبت لتحقيق أداء أسرع وأكثر استقراراً."
   }
 ]
