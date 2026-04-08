@@ -1,212 +1,212 @@
 [
   {
     "post_number": 1,
-    "post_title": "TOON مقابل JSON: هل TOON هو بديل JSON الحقيقي في تعاملات LLMs؟ تحليل مفصل للمزايا والعيوب والاستخدامات المناسبة",
-    "post_summary": "الفترة اللي فاتت كل الناس بتتكلم عن صيغة جديدة ظهرت اسمها (TOON) ودي اختصار لـ Token-Oriented Object Notation.\nوفي ناس بتقول إنها ممكن تستبدل الـ JSON لأنها أخف وبتستهلك توكنز أقل وأسرع في التعامل مع الـ LLMs.\nبس من رأيي الكلام ده مش دقيق تعالوا نفهم الموضوع من الآخر\n\nأولاً: إيه هو TOON وليه عامل دوشة الفترة دي؟\nالـ TOON هو طريقة جديدة لتمثيل البيانات بشكل شبه منظم، بس من غير أقواس ولا فواصل ولا علامات تنصيص زي JSON.\nوده مهم لأن كل الأقواس والـ quotes اللي في JSON بتتحسب توكنز، وده بيزود التكلفة، وبيقلل المساحة المتاحة في الـ context، وبيبطأ استجابة الـ model.\n\nفي المقابل، TOON خفيف جداً وبيستهلك توكنز أقل بشكل واضح (ممكن يوصل لتوفير من 30% لـ 50%).\n\nمثال بسيط:\n\nJSON:\n{\n \"name\": \"Omar\",\n \"skills\": [\"AI\", \"ML\"]\n}\n\nTOON:\nname: Omar\nskills:\n - AI\n - ML\n\nطيب… بما إنه خفيف وسهل كده، ليه منستخدموش بشكل أساسي؟\n\nببساطة:\nJSON هو الأكثر استقراراً، وكمان Standard رسمي.\nمدعوم في كل لغات البرمجة، وله Tools، وله Validators، والـ parsing بتاعه ثابت ومتوقع.\n\nأما TOON:\nمفيد فعلاً، بس مش ثابت في كل السيناريوهات.\nملوش Standard رسمي، وكل حد ممكن يكتبه بشكل مختلف.\nالـ parsing بتاعه بيبقى custom.\nمش مناسب للبيانات المعقدة اللي فيها nested structures.\nولو الـ model نفسه ضعيف، ممكن يلخبط في الـ structure\n\nالخلاصة\nTOON ممتاز لو عايز توفر توكنز أو بتتعامل مع بيانات بسيطة ومكررة\nلكن JSON هو الأضمن والأكثر استقراراً لما تيجي تبني نظام حقيقي أو API أو حاجة critical"
+    "post_title": "TOON ولا JSON: هل TOON هو بديل JSON الحقيقي في الـ Frontend؟",
+    "post_summary": "الفترة اللي فاتت كل الناس بتتكلم عن صيغة (TOON). في ناس بتقول إنها ممكن تستبدل الـ JSON لأنها بتوفر توكنز في الـ API Calls. بس من رأيي كـ Frontend Developer، الـ JSON لسه الملك لأن الـ Parsing بتاعه في JavaScript بلت-إن وسريع، والـ TOON لسه ملوش Types جاهزة في TypeScript وممكن يتعبنا في الـ Runtime."
   },
   {
     "post_number": 2,
-    "post_title": "دليلك الشامل لتعلم LLMs: مراجعة لمحتوى ريبو llm-course على GitHub لجميع المستويات",
-    "post_summary": "في ناس كتير كلمتني انها محتارة ازاي تبدا او تكمل ف الـ LLMs فـ mlabonne/llm-course على GitHub بصراحة من أحسن الريبو اللي وقعت عليها بالصدفة واللي هتساعدك في أي مرحلة سواء لسه بتبدأ أو عايز توصل لمستوى كويس\nالريبو ده فيه حاجات قوية جدا زي\nشرح أساسيات الـ LLMs والـ Neural Networks بشكل عملي وبـ Notebooks جاهزة تقدر تشتغل عليها على طول.\nجزء كامل عن RAG Pipelines إزاي تبنيها من الصفر وتستخدمها\nحاجات تانية مهمة جدا زي Fine-Tuning، Quantization، و Evaluation Methods لتطوير models بطريقة كويسة\nكمان بيغطي مواضيع مهمة زي Prompt Engineering، managing memory ، وتحسين أداء models في الproduction\nالجميل إنه مش مجرد شرح نظري لا هتلاقي أمثلة عملية و Notebooks تقدر تجربها بنفسك وتنفذ مشاريع كاملة.\n الريبو: https://lnkd.in/dDtQd9Vt\nhashtag#LLM hashtag#GenerativeAI hashtag#MachineLearning hashtag#DeepLearning hashtag#RAG hashtag#PromptEngineering hashtag#ArtificialIntelligence hashtag#AI hashtag#OpenSource hashtag#DataScience hashtag#LangChain hashtag#FineTuning hashtag#AICommunity hashtag#LearningPath hashtag#Tech"
+    "post_title": "دليلك الشامل لتعلم الـ Web Performance: مراجعة ريبو frontend-course",
+    "post_summary": "لو محتار تبدأ إزاي تطور مستواك، الريبو ده كنز. فيه شرح للـ Rendering Patterns (SSR, SSG, CSR) وإزاي تختار بينهم في Next.js، وفيه جزء كامل عن تحسين الـ Core Web Vitals عشان الـ SEO بتاع موقعك يبقى مسطرة."
   },
   {
     "post_number": 3,
-    "title": "Top 30+ NLP Use Cases in 2026 with Real-life Examples",
-    "summary": "تطور تقنيات الـ NLP في 2026 نحو النمذجة المتخصصة والذكاء الاصطناعي الوكيل (Agentic AI) لتمكين اتخاذ قرارات معقدة وفورية في القطاعات الحيوية."
+    "post_title": "أهم الـ UI Patterns في 2026 مع أمثلة حقيقية",
+    "post_summary": "تطور الـ Frontend دلوقتي رايح ناحية الـ Micro-frontends والـ Island Architecture، يعني إزاي تبني Components مستقلة تماماً وتقدر تعملها Deploy لوحدها من غير ما الـ App كله يقع."
   },
   {
     "post_number": 4,
-    "title": "More ways to build and scale AI agents with Vertex ...",
-    "summary": "يوفر Vertex AI Agent Engine بنية تحتية متكاملة لنقل وكلاء الذكاء الاصطناعي من مرحلة التجربة إلى الإنتاج الفعلي بكفاءة عالية وأدوات تقييم دقيقة."
+    "post_title": "بناء وتوسيع الـ Design Systems باستخدام Tailwind و Headless UI",
+    "post_summary": "إزاي تبني Design System يقدر يشيل الـ Scaling بتاع شركتك، وتستخدم أدوات زي Tailwind CSS مع Radix UI عشان تضمن Accessibility وسرعة في الـ Development."
   },
   {
     "post_number": 5,
-    "title": "Generative AI with Large Language Models in C# in 2026 - .NET Blog",
-    "summary": "تطوير منظومة .NET لتقديم دعم أصلي (Native) ومتكامل لتقنيات الذكاء الاصطناعي التوليدي، مما يعزز أداء وكفاءة تشغيل النماذج الكبيرة (LLMs) برمجياً."
+    "post_title": "تطوير منظومة الـ TypeScript لتقديم دعم Native للـ AI",
+    "post_summary": "إزاي الـ Compiler بتاع TypeScript بدأ يتطور عشان يفهم الـ AI SDKs بشكل أحسن، وده بيخليك تكتب Code أضمن وأنت بتنادي الـ LLMs من الـ Client-side."
   },
   {
     "post_number": 6,
-    "title": "Effective harnesses for long-running agents - Anthropic",
-    "summary": "تطوير Anthropic لنظام إدارة مهام الوكلاء الذكيين (Harness) لتعزيز كفاءة العمليات الطويلة عبر تقسيم المهام، ومعالجة الأخطاء، وتقليل استهلاك الموارد."
+    "post_title": "إدارة الـ Long-running Requests في الـ Next.js Actions",
+    "post_summary": "لما يكون عندك Server Action بياخد وقت طويل (زي Upload لفايل كبير)، إزاي تستخدم الـ Optimistic UI و الـ Streaming عشان المستخدم ميحسش إن الـ UI مهنج."
   },
   {
     "post_number": 7,
-    "title": "Microsoft Build 2025: The age of AI agents and building the open ...",
-    "summary": "تطور الـ AI Agents من مجرد توليد نصوص إلى أنظمة ذكية ذاتية الإدارة تعتمد على التفكير المنطقي، الذاكرة الطويلة، والتعاون البيني عبر الـ Open Agentic Web."
+    "post_title": "مؤتمر Next.js Conf 2025: عصر الـ Server Components والـ Partial Prerendering",
+    "post_summary": "الـ Web مبقاش مجرد صفحات، بقى تجربة ذكية بتعتمد على الـ PPR عشان تعرض الجزء الثابت من الصفحة فوراً والجزء المتغير يجيله Streaming في السكة."
   },
   {
     "post_number": 8,
-    "title": "What are tokens and how to count them? - OpenAI Help Center",
-    "summary": "شرح مفهوم الـ Tokenization وآلية عمله في النماذج اللغوية الكبيرة وأهميته في تحسين التكلفة والأداء التقني."
+    "post_title": "يعني إيه Bundle Size وإزاي تقلله صح؟",
+    "post_summary": "شرح مفهوم الـ Tree Shaking والـ Code Splitting في Webpack و Turbopack، وأهمية ده عشان الـ Landing Page بتاعتك تفتح في أقل من ثانية."
   },
   {
     "post_number": 9,
-    "title": "Demystifying evals for AI agents - Anthropic",
-    "summary": "تحديات بناء وكلاء الذكاء الاصطناعي تكمن في تطوير نظم تقييم دقيقة (Evaluation Loops) تضمن موثوقية التفكير المنطقي واستقرار الأداء التقني."
+    "post_title": "فك عقدة الـ Testing في الـ React Apps",
+    "post_summary": "التحدي الحقيقي مش إنك تكتب Code، الأصعب إنك تعمل Unit و E2E Testing بـ Vitest و Playwright عشان تضمن إن أي تعديل جديد ميبوظش الـ Features القديمة."
   },
   {
     "post_number": 10,
-    "title": "Introduction to Large Language Models | Machine Learning",
-    "summary": "شرح الآلية التقنية لعمل النماذج اللغوية الكبيرة (LLMs) من التنبؤ الإحصائي والمعالجة الرياضية حتى مرحلة التعلم العميق والضبط الدقيق."
+    "post_title": "مقدمة تقنية في الـ Next.js App Router",
+    "post_summary": "شرح إزاي الـ Layouts والـ Nested Routing بيشتغلوا، والفرق الجوهري بين الـ Client Components والـ Server Components وامتى تستخدم كل واحدة."
   },
   {
     "post_number": 11,
-    "title": "New tech and tools for retailers to succeed in an agentic shopping era",
-    "summary": "تحول التجارة الإلكترونية نحو نظام \"Agentic Commerce\" الذي يعتمد على وكلاء ذكاء اصطناعي مستقلين وبروتوكول موحد لاتخاذ قرارات شراء وتنفيذ عمليات متكاملة."
+    "post_title": "أدوات جديدة للـ E-commerce باستخدام الـ Next.js 16",
+    "post_summary": "تحول الـ E-commerce لنظام الـ Dynamic Caching، حيث الـ Agent بتاع المتجر بيقدر يعدل الأسعار والخصومات لحظياً بناءً على سلوك المستخدم."
   },
   {
     "post_number": 12,
-    "title": "Embeddings | Machine Learning - Google for Developers",
-    "summary": "دور الـ Embeddings في تحويل البيانات لمتجهات كثيفة (Dense Vectors) تعبر عن العلاقات الدلالية والأنماط المشتركة لتحسين فهم وكفاءة النماذج."
+    "post_title": "دور الـ State Management في الـ Enterprise Apps",
+    "post_summary": "امتى تستخدم Zustand، وامتى تكتفي بـ Context API، وامتى الـ React Query يكون هو الحل الأمثل لإدارة الداتا اللي جاية من الـ API."
   },
   {
     "post_number": 13,
-    "title": "[1706.03762] Attention Is All You Need - arXiv",
-    "summary": "تطوير معمارية الـ Transformer القائمة على الـ Self-Attention لتجاوز قيود النماذج التكرارية وتحقيق كفاءة أعلى في المعالجة المتوازية وفهم السياق."
+    "post_title": "ورقة بحث 'The Future of Web Engines' والتحول للـ WASM",
+    "post_summary": "إزاي الـ WebAssembly بدأ يغير شكل الـ Frontend ويخلينا نقدر نشغل Heavy Logic جوه الـ Browser بسرعة الـ Native Apps."
   },
   {
     "post_number": 14,
-    "title": "Vector embeddings | OpenAI API",
-    "summary": "شرح دور الـ Vector Embeddings في تحويل النصوص لتمثيلات رياضية تعزز دقة البحث الدلالي (Semantic Search) وأنظمة الـ RAG."
+    "post_title": "الـ Semantic HTML وأهميته للـ SEO و الـ Accessibility",
+    "post_summary": "إزاي تكتب كود نظيف بيفهمه الـ Google Bot والـ Screen Readers، وده أساسي لأي Frontend Engineer عايز يعمل منتج محترم."
   },
   {
     "post_number": 15,
-    "title": "LLMs: Fine-tuning, distillation, and prompt engineering",
-    "summary": "توضيح الفروق التقنية بين الـ Fine-tuning والـ Distillation والـ Prompt Engineering كاستراتيجيات لتحسين أداء ونماذج اللغات الضخمة (LLMs)."
+    "post_title": "الفرق بين الـ Deep Linking والـ Client-side Routing",
+    "post_summary": "توضيح إزاي المتصفح بيتعامل مع الـ URLs في الـ SPAs، وإزاي تضمن إن الـ Navigation بتاعك سريع وسلس."
   },
   {
     "post_number": 16,
-    "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
-    "summary": "تطور تقنيات الـ Fine-tuning لتحقيق كفاءة المعلمات (Parameter Efficiency) وضمان دقة الأداء دون فقدان المعرفة الأساسية للنموذج."
+    "post_title": "الدليل الكامل للـ Hydration Errors وإزاي تحلها",
+    "post_summary": "أشهر مشكلة بتقابل الـ Next.js Developers. إزاي تفهم ليه الداتا على السيرفر مختلفة عن الكلاينت وتصلحها من غير ما تستخدم `useEffect` كتير."
   },
   {
     "post_number": 17,
-    "title": "Generative AI news and analysis - TechCrunch",
-    "summary": "استعراض لأبرز التحولات التقنية الحالية في تطوير نماذج الذكاء الاصطناعي من حيث كفاءة البنية التحتية، التخصص، وتكامل الوسائط المتعددة."
+    "post_title": "أخبار الـ Web Standards من TechCrunch",
+    "post_summary": "استعراض لأهم التطورات في الـ CSS (زي الـ Container Queries والـ Layers) وإزاي ده بيسهل حياة الـ Frontend Developer."
   },
   {
     "post_number": 18,
-    "title": "What does the future hold for generative AI? | MIT News",
-    "summary": "تحول مستقبل الذكاء الاصطناعي من زيادة الحجم إلى كفاءة البنية التحتية، جودة البيانات، والقدرة على التنفيذ الذاتي للمهام (Agentic Workflows)."
+    "post_title": "مستقبل الـ UI: من الـ Static لـ الـ Generative Interfaces",
+    "post_summary": "الـ Frontend بيتحول من تصميمات ثابتة لواجهات بتتغير وتتشكل لحظياً بناءً على احتياج المستخدم باستخدام الـ AI."
   },
   {
     "post_number": 19,
-    "title": "[2303.18223] A Survey of Large Language Models - arXiv",
-    "summary": "تحليل شامل لرحلة تطوير النماذج اللغوية الكبيرة (LLMs) من مرحلة البناء والتدريب حتى التحسين والتشغيل لضمان كفاءة الأداء والدقة."
+    "post_title": "دراسة شاملة عن الـ Runtime Performance في React",
+    "post_summary": "تحليل لعملية الـ Reconciliation والـ Diffing Algorithm، وازاي تتجنب الـ Unnecessary Re-renders باستخدام `memo` و `useMemo`."
   },
   {
     "post_number": 20,
-    "title": "The assistant axis: situating and stabilizing the character ... - Anthropic",
-    "summary": "التحكم في شخصية وسلوك الذكاء الاصطناعي بدقة رياضية عبر توجيه التنشيطات الداخلية (Activation Steering) بدلاً من هندسة الأوامر التقليدية."
+    "post_title": "التحكم في الـ API Fetching باستخدام الـ Interceptors",
+    "post_summary": "بدل ما تكتب الـ Header في كل Call، الـ Interceptors في Axios أو الـ Middleware في Next.js بيسمحوا لك تدير الـ Auth والـ Errors في مكان واحد."
   },
   {
     "post_number": 21,
-    "title": "Are AI agents ready for the workplace? A new benchmark raises ...",
-    "summary": "تتمثل عقبة الـ AI agents الحالية في ضعف الموثوقية عند تنفيذ مهام معقدة وطويلة التسلسل، مما يتطلب تطوير قدرات إدارة الذاكرة ومعالجة السياق لضمان دقة التنفيذ في بيئات العمل المتخصصة."
+    "post_title": "هل الـ Server Components جاهزة لكل الـ Use Cases؟",
+    "post_summary": "عقبة الـ RSCs دلوقتي هي الـ Interactivity. محتاجين نفهم إزاي نوزع الـ Logic صح بين السيرفر والكلاينت عشان منبوظش الـ UX."
   },
   {
     "post_number": 22,
-    "title": "500-AI-Agents-Projects - UseCase - GitHub",
-    "summary": "دليل تقني لبناء وتطوير أنظمة الوكلاء الذكيّة (AI Agents) المستقلة وكيفية إدارتها برمجياً لضمان كفاءة التنفيذ في بيئات العمل الحقيقية."
+    "post_title": "أفضل 500 مكتبة Open Source للـ React Developers",
+    "post_summary": "دليل فيه كل الـ Libraries اللي ممكن تحتاجها (Forms, Tables, Charts) وإزاي تختار المكتبة اللي ليها Community كبير و Bundle size قليل."
   },
   {
     "post_number": 23,
-    "title": "Large Language Models (LLMs) with Google AI",
-    "summary": "الابتكار التقني في نماذج جوجل اللغوية يرتكز على بنية هندسية متطورة (MoE) وبنية تحتية قوية تحقق توازناً مثالياً بين سرعة الأداء ودقة المعالجة."
+    "post_title": "الابتكار في Vercel والبنية التحتية للـ Edge",
+    "post_summary": "إزاي الـ Edge Functions بتخلي الـ App بتاعك يرد من أقرب Server للمستخدم، وده بيقلل الـ TTFB (Time to First Byte) بشكل خرافى."
   },
   {
     "post_number": 24,
-    "title": "Tokenizer - OpenAI API",
-    "summary": "شرح الآلية التقنية لعمل الـ Tokenizer في نماذج OpenAI ودوره الجوهري في تحديد كفاءة الأداء، التكلفة، ومعالجة البيانات."
+    "post_title": "إزاي الـ Browser Engine بيقرأ الـ JavaScript بتاعك؟",
+    "post_summary": "شرح تقني للـ V8 Engine والـ JIT Compilation، وده هيفهمك ليه كتابة Clean Code بتأثر فعلياً على سرعة تنفيذ الـ Functions."
   },
   {
     "post_number": 25,
-    "title": "How generative AI can help scientists synthesize complex ...",
-    "summary": "تطوير نموذج DiffSyn المعتمد على الذكاء الاصطناعي التوليدي والفيزياء لابتكار مواد جديدة بدقة عالية عبر أتمتة وتحديد معايير التصنيع المثالية."
+    "post_title": "الـ CSS-in-JS vs Tailwind: خناقة الـ Styling",
+    "post_summary": "مقارنة بين الـ Runtime CSS زي Styled Components والـ Zero-runtime زي Tailwind و Vanilla Extract من حيث الأداء وتجربة المطور."
   },
   {
     "post_number": 26,
-    "title": "LLM Finetuning with peft - GitHub",
-    "summary": "تقليل تكلفة وموارد تدريب النماذج اللغوية الضخمة باستخدام تقنية PEFT وLoRA عبر تعديل أجزاء محدودة من الأوزان مع الحفاظ على الأداء."
+    "post_title": "تقليل الـ First Contentful Paint بـ الصور الذكية",
+    "post_summary": "إزاي تستخدم الـ Next/Image عشان تعمل Optimization للصور أوتوماتيكياً وتحولها لـ WebP بناءً على حجم الشاشة."
   },
   {
     "post_number": 27,
-    "title": "The best NLP papers",
-    "summary": "تحول نماذج الـ NLP نحو الـ Reasoning الذاتي وتحسين منطق التفكير عبر الـ Reinforcement Learning لزيادة كفاءة حل المهام المعقدة."
+    "post_title": "أفضل أوراق البحث في الـ Web Security (XSS & CSRF)",
+    "post_summary": "إزاي تحمي الـ Frontend بتاعك من الاختراق، وتستخدم الـ Content Security Policy (CSP) عشان تمنع أي Scripts غريبة تشتغل."
   },
   {
     "post_number": 28,
-    "title": "What are large language models (LLMs)? - Microsoft Azure",
-    "summary": "شرح الأسس التقنية لنماذج اللغات الكبيرة (LLMs) وآلية عملها من المعمارية الهندسية وحتى التدريب والتوليد."
+    "post_title": "أساسيات الـ TypeScript للـ Pro Developers",
+    "post_summary": "شرح للـ Generics، والـ Utility Types، وإزاي تعمل Type Guard عشان الكود بتاعك ميعملش Crash أبداً بسبب الـ `undefined`."
   },
   {
     "post_number": 29,
-    "title": "The 2025 AI Agent Index",
-    "summary": "تحول الذكاء الاصطناعي في 2025 من مجرد أدوات دردشة إلى \"وكلاء تنفيذيين\" (Agents) قادرين على التخطيط الذاتي وحل المهام المعقدة برمجياً وعملياً."
+    "post_title": "مؤشر الـ Frontend Frameworks لعام 2025",
+    "post_summary": "التحول الكبير من الـ Frameworks التقيلة للـ Meta-frameworks اللي بتدير الـ Routing والـ API والـ Styling في Package واحدة."
   },
   {
     "post_number": 30,
-    "title": "AI Demystified: Introduction to large language models | University IT",
-    "summary": "شرح الآليات التقنية والهيكلية التي تمكن النماذج اللغوية الكبيرة (LLMs) من فهم السياق وتوليد استجابات منطقية."
+    "post_title": "تبسيط الـ React Hooks: من البداية للاحتراف",
+    "post_summary": "شرح للميكانزم بتاع الـ Hooks وإزاي الـ Fiber Architecture بيسمح لـ React إنه يوقف ويستأنف الـ Rendering براحته."
   },
   {
     "post_number": 31,
-    "title": "Jira's latest update allows AI agents and humans to work side by side",
-    "summary": "تحول Jira نحو فرق هندسية هجينة تعتمد على عملاء ذكاء اصطناعي (AI Agents) يتمتعون بصلاحيات تنفيذية وقدرة على اتخاذ قرارات تقنية مستقلة."
+    "post_title": "تحديث VS Code الجديد: الـ AI Co-pilot للـ Frontend",
+    "post_summary": "الـ Editor بتاعك بقى يفهم الـ Context بتاع الـ Components بتاعتك ويقترح عليك Code كامل متوافق مع الـ Design System بتاعك."
   },
   {
     "post_number": 32,
-    "title": "The Intelligent OS: Making AI agents more helpful for Android apps",
-    "summary": "تحويل تطبيقات أندرويد إلى وظائف برمجية (APIs) لتمكين مساعدي الذكاء الاصطناعي من تنفيذ المهام بدقة وسرعة دون الاعتماد على واجهة المستخدم."
+    "post_title": "الـ Progressive Web Apps (PWA) في 2026",
+    "post_summary": "تحويل موقعك لـ App حقيقي بيشتغل Offline وبيدعم الـ Push Notifications، وكل ده باستخدام الـ Service Workers."
   },
   {
     "post_number": 33,
-    "title": "How Large Language Models Learn - ByteByteGo Newsletter",
-    "summary": "شرح المبادئ التقنية والهيكلية التي تحكم عمل النماذج اللغوية الكبيرة (LLMs) بدءاً من التدريب والمعالجة وصولاً إلى التوليد والضبط الدقيق."
+    "post_title": "إزاي الـ Virtual DOM بيشتغل فعلياً؟",
+    "post_summary": "شرح تقني لعملية الـ Reconciliation وإزاي React بيعرف إيه اللي اتغير في الـ UI ومحتاج يتحدث عشان يوفر في الـ DOM operations."
   },
   {
     "post_number": 34,
-    "title": "Mixing generative AI with physics to create personal items that work ...",
-    "summary": "دمج محاكاة قوانين الفيزياء مع الذكاء الاصطناعي التوليدي لإنتاج نماذج ثلاثية الأبعاد قابلة للتصنيع والاستخدام الفعلي بدلاً من مجرد التصميمات الجمالية."
+    "post_title": "دمج الـ 3D في الـ Web بـ Three.js و React Three Fiber",
+    "post_summary": "إزاي تعمل تجارب بصرية مذهلة 3D وتدمجها جوه الـ React components بتاعتك من غير ما تضحي بالأداء."
   },
   {
     "post_number": 35,
-    "title": "Breakthroughs in LLM Reasoning Show a Path Forward for Neuro ...",
-    "summary": "دمج الذكاء الاصطناعي العصبي والمنطق الرمزي (Neuro-symbolic) لبناء أنظمة قانونية دقيقة قادرة على تحويل عقود التأمين المعقدة إلى كود برمجي قابل للتنفيذ آلياً."
+    "post_title": "الـ Server-side Logic في Next.js: الـ API Routes",
+    "post_summary": "إزاي تبني Full-stack Features جوه مشروع الـ Next.js بتاعك وتتعامل مع الـ Database مباشرة من غير ما تحتاج Back-end منفصل."
   },
   {
     "post_number": 36,
-    "title": "A paper list of pre-trained language models (PLMs).",
-    "summary": "تطور معمارية الـ Transformers وتقنيات الـ Pre-training هما الركيزة الأساسية لنماذج اللغة الضخمة الحديثة وكفاءتها في فهم وتوليد اللغة."
+    "post_title": "تطور الـ ECMA Script ومستقبل الـ JavaScript",
+    "post_summary": "أهم الـ Features الجديدة اللي نزلت في JS وإزاي الـ Babel والـ SWC بيساعدونا نشغلها على كل المتصفحات القديمة."
   },
   {
     "post_number": 37,
-    "title": "Embedding space and static embeddings | Machine Learning",
-    "summary": "شرح مفهوم الـ Embedding Space كآلية لتحويل الكلمات لمتجهات رقمية كثيفة تعبر عن العلاقات الدلالية والهندسية بين المفردات."
+    "post_title": "مفهوم الـ Memoization والـ Optimization في React",
+    "post_summary": "إزاي تستخدم `useCallback` و `useMemo` صح، وامتى يكون استخدامهم ملوش لازمة وممكن يقلل الأداء بدل ما يحسنه."
   },
   {
     "post_number": 38,
-    "title": "What are AI agents? Definition, examples, and types | Google Cloud",
-    "summary": "توضيح الفرق الجوهري للـ AI Agents كأنظمة ذاتية التشغيل تعتمد على التفكير المنطقي (Reasoning)، واستخدام الأدوات الخارجية، والعمل الجماعي المتكامل لتنفيذ مهام معقدة."
+    "post_title": "يعني إيه Micro-Frontends؟ (Architectural View)",
+    "post_summary": "إزاي تقسم الـ Frontend بتاعك لقطع صغيرة، كل تيم يقدر يشتغل على قطعة لوحده ويستخدم Framework مختلف لو حب."
   },
   {
     "post_number": 39,
-    "title": "Chain of Thought Reasoning, the New LLM Breakthrough",
-    "summary": "يركز نموذج o1 على استهلاك وقت أطول في التفكير المنطقي (Inference-time compute) لتعزيز قدرات التحليل الذاتي وتقليل الأخطاء في المهام المعقدة."
+    "post_title": "الـ React Streaming: سرعة الـ Time to Interactive",
+    "post_summary": "إزاي Next.js بيستخدم الـ Suspense عشان يبعت الـ HTML للمتصفح حتة حتة، وده بيخلي المستخدم يشوف الداتا أسرع بكتير."
   },
   {
     "post_number": 40,
-    "title": "A Breakthrough for Large Language Models Arrives",
-    "summary": "تحول نماذج الذكاء الاصطناعي من مجرد التنبؤ بالنصوص إلى \"التفكير المنطقي\" أثناء الاستنتاج (Inference) لتعزيز دقة حل المشكلات المعقدة."
+    "post_title": "نقلة نوعية: من الـ OOP للـ Functional Programming في JS",
+    "post_summary": "ليه الـ React Community راح ناحية الـ Functional Components والـ Hooks، وإزاي ده خلى الـ Code أسهل في الـ Testing والـ Reuse."
   },
   {
     "post_number": 41,
-    "title": "News - MIT Generative AI Impact Consortium",
-    "summary": "استخدام الذكاء الاصطناعي التوليدي لإنشاء توائم رقمية تتنبأ بانتشار أمراض المحاصيل وحماية الأمن الغذائي عبر تحليل البيانات البيولوجية والبيئية."
+    "post_title": "تأثير الـ Low-code على مستقبل الـ Frontend Developers",
+    "post_summary": "إزاي الأدوات اللي بتبني UI بـ Drag and Drop بتأثر على شغلنا، وإزاي الـ Engineer الشاطر هو اللي بيعرف يدمجهم مع Code حقيقي."
   },
   {
     "post_number": 42,
-    "title": "Natural Language Processing | Stanford HAI",
-    "summary": "تطور الـ NLP من مجرد تحسين الدقة إلى تمكين النماذج من فهم السياق المعقد والاستنتاج عبر تقنيات الـ Transformers والتمثيل الديناميكي للبيانات."
+    "post_title": "مستقبل الـ Web Browsers في معالجة الـ Heavy Frameworks",
+    "post_summary": "إزاي الـ Chrome و Safari بيتطوروا عشان يقللوا استهلاك الميموري للـ Apps التقيلة اللي معمولة بـ React و Next.js."
   }
 ]
