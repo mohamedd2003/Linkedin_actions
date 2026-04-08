@@ -12,39 +12,40 @@ class SearchEngine:
     
     def search_ai_topics(self):
         """البحث عن أحدث مواضيع AI و NLP و LLMs"""
+         queries = [
+                    "Next.js 16 latest features and App Router updates",
+                    "Advanced React Server Components (RSC) and Streaming patterns",
+                    "Frontend Performance Optimization and Core Web Vitals (INP/LCP)",
+                    "TypeScript 5.x Best Practices for Scalable Web Applications",
+                    "Modern State Management: Zustand vs React Query vs Context API",
+                    "Micro-Frontends Architecture and Module Federation in 2026",
+                    "Optimizing Bundle Size with Tree Shaking and Turbopack",
+                    "Headless UI Libraries and Accessible Design Systems (Radix, Headless UI)",
+                    "Edge Runtime and Middleware Patterns in Next.js",
+                    "Partial Prerendering (PPR) and Static vs Dynamic Rendering",
+                    "React 19 Actions and the new 'use' hook implementation",
+                    "Server-side Form Validation in Next.js with Zod",
+                    "Next-intl for Localization and RTL Support in Arabic Web Apps",
+                    "Advanced Tailwind CSS patterns and Container Queries",
+                    "Testing React Components with Vitest and Playwright",
+                    "Client-side Caching Strategies and Service Workers (PWA)",
+                    "Hydration Error Debugging in Next.js and React",
+                    "CSS-in-JS vs Zero-runtime CSS (Vanilla Extract, Panda CSS)",
+                    "Optimizing Web Fonts and Image Optimization with Next/Image",
+                    "Integrating AI SDKs in React for Generative UI",
+                    "WebAssembly (WASM) use cases for high-performance Frontend",
+                    "The transition from Webpack to Vite and Rsbuild",
+                    "Shadcn/ui customization and component governance",
+                    "React Native vs Expo for Web: Cross-platform code sharing",
+                    "Deep dive into JavaScript Event Loop and V8 Engine optimization",
+                    "Monorepo management with TurboRepo and Nx for Frontend",
+                    "Browser Security Best Practices: CSP, XSS, and CSRF protection",
+                    "Inter-component communication patterns without Prop Drilling",
+                    "Optimistic UI updates with useOptimistic hook",
+                    "Handling Arithmetic Overflow and High-Performance Data Rendering in JS"
+                ]
         
- queries = [
-    "Next.js 16 latest features and App Router updates",
-    "Advanced React Server Components (RSC) and Streaming patterns",
-    "Frontend Performance Optimization and Core Web Vitals (INP/LCP)",
-    "TypeScript 5.x Best Practices for Scalable Web Applications",
-    "Modern State Management: Zustand vs React Query vs Context API",
-    "Micro-Frontends Architecture and Module Federation in 2026",
-    "Optimizing Bundle Size with Tree Shaking and Turbopack",
-    "Headless UI Libraries and Accessible Design Systems (Radix, Headless UI)",
-    "Edge Runtime and Middleware Patterns in Next.js",
-    "Partial Prerendering (PPR) and Static vs Dynamic Rendering",
-    "React 19 Actions and the new 'use' hook implementation",
-    "Server-side Form Validation in Next.js with Zod",
-    "Next-intl for Localization and RTL Support in Arabic Web Apps",
-    "Advanced Tailwind CSS patterns and Container Queries",
-    "Testing React Components with Vitest and Playwright",
-    "Client-side Caching Strategies and Service Workers (PWA)",
-    "Hydration Error Debugging in Next.js and React",
-    "CSS-in-JS vs Zero-runtime CSS (Vanilla Extract, Panda CSS)",
-    "Optimizing Web Fonts and Image Optimization with Next/Image",
-    "Integrating AI SDKs in React for Generative UI",
-    "WebAssembly (WASM) use cases for high-performance Frontend",
-    "The transition from Webpack to Vite and Rsbuild",
-    "Shadcn/ui customization and component governance",
-    "React Native vs Expo for Web: Cross-platform code sharing",
-    "Deep dive into JavaScript Event Loop and V8 Engine optimization",
-    "Monorepo management with TurboRepo and Nx for Frontend",
-    "Browser Security Best Practices: CSP, XSS, and CSRF protection",
-    "Inter-component communication patterns without Prop Drilling",
-    "Optimistic UI updates with useOptimistic hook",
-    "Handling Arithmetic Overflow and High-Performance Data Rendering in JS"
-]
+                
         all_results = []
         
         for query in queries:
