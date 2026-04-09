@@ -218,5 +218,10 @@
     "post_number": 44,
     "title": "Next.js 16",
     "summary": "تطوير الأداء وتجربة المستخدم في Next.js 16 عبر الدمج الكلي لميزات React 19 وتقنيات الكاشينج والسيرفر أكشنز المتقدمة."
+  },
+  {
+    "post_number": 45,
+    "title": "Next.js 16",
+    "summary": "أبرز تحديثات Next.js 16 لتعزيز الأداء وتجربة المطورين عبر دمج ميزات React 19 وتقنية الـ Partial Prerendering."
   }
 ]
