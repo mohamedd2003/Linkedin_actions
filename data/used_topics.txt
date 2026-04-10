@@ -223,5 +223,10 @@
     "post_number": 45,
     "title": "Next.js 16",
     "summary": "أبرز تحديثات Next.js 16 لتعزيز الأداء وتجربة المطورين عبر دمج ميزات React 19 وتقنية الـ Partial Prerendering."
+  },
+  {
+    "post_number": 46,
+    "title": "Next.js 16",
+    "summary": "تطوير بنية Next.js 16 لتعزيز الأداء وتقليل حجم الملفات عبر الدمج العميق لميزات React 19 وتقنيات الـ Server Components والـ Streaming."
   }
 ]
