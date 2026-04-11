@@ -228,5 +228,10 @@
     "post_number": 46,
     "title": "Next.js 16",
     "summary": "تطوير بنية Next.js 16 لتعزيز الأداء وتقليل حجم الملفات عبر الدمج العميق لميزات React 19 وتقنيات الـ Server Components والـ Streaming."
+  },
+  {
+    "post_number": 47,
+    "title": "Next.js 16",
+    "summary": "تحسينات معمارية جذرية في Next.js 16 تعزز كفاءة الرندرينج وسرعة الأداء عبر دمج ميزات React 19 وتقنيات الـ Streaming المتقدمة."
   }
 ]
