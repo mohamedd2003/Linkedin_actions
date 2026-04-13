@@ -238,5 +238,10 @@
     "post_number": 48,
     "title": "Next.js 16",
     "summary": "تطوير بنية Next.js 16 لرفع الأداء وتقليل استهلاك الموارد عبر دمج تقنيات React الحديثة وتحسين معالجة البيانات والـ Rendering."
+  },
+  {
+    "post_number": 49,
+    "title": "Next.js 16",
+    "summary": "تحسين أداء وتجربة تطوير Next.js 16 عبر دمج ميزات React 19 لتعزيز الـ Rendering وتقليل حجم الملفات وتطوير الـ Server Actions."
   }
 ]
