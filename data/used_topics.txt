@@ -243,5 +243,10 @@
     "post_number": 49,
     "title": "Next.js 16",
     "summary": "تحسين أداء وتجربة تطوير Next.js 16 عبر دمج ميزات React 19 لتعزيز الـ Rendering وتقليل حجم الملفات وتطوير الـ Server Actions."
+  },
+  {
+    "post_number": 50,
+    "title": "Next.js 16",
+    "summary": "يركز التحديث الجديد لـ Next.js 16 على تحسين الأداء وسرعة الاستجابة عبر دمج تقنيات React الحديثة لتقليل حجم ملفات الواجهة الأمامية (Client-side Bundle) وتسريع عمليات الرندر."
   }
 ]
