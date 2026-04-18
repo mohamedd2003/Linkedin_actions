@@ -5,7 +5,8 @@ on:
     - cron: '30 15 * * *'
   
   workflow_dispatch: # للتشغيل اليدوي للاختبار
-
+permissions:
+  contents: write
 jobs:
   run-agent:
     runs-on: ubuntu-latest
