@@ -263,5 +263,10 @@
     "post_number": 53,
     "title": "Next.js 16",
     "summary": "تحديث Next.js 16 يعزز أداء الـ Full-stack وتجربة المستخدم عبر دمج ميزات React 19 وتقنيات رندر وCaching متطورة لتقليل الكود وتحسين السرعة."
+  },
+  {
+    "post_number": 54,
+    "title": "Next.js 16",
+    "summary": "تحسينات جذرية في أداء وكفاءة Next.js 16 عبر استغلال مميزات React 19 وتطوير آليات الـ rendering والـ caching."
   }
 ]
