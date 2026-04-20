@@ -283,5 +283,10 @@
     "post_number": 57,
     "title": "Next.js 16",
     "summary": "استعراض التحسينات التقنية في Next.js 16 لرفع أداء الـ Rendering وتقليل الـ Latency عبر التكامل العميق مع مميزات React 19.2."
+  },
+  {
+    "post_number": 58,
+    "title": "Next.js 16",
+    "summary": "تحديث Next.js 16 يركز على تعزيز الأداء والكفاءة في التطبيقات الضخمة عبر دمج ميزات React 19 وتحسين هندسة الـ Rendering وإدارة الذاكرة."
   }
 ]
