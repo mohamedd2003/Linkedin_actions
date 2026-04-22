@@ -293,5 +293,10 @@
     "post_number": 59,
     "title": "Next.js 16",
     "summary": "تطوير Next.js 16 بالاعتماد على React 19 لتعزيز أداء الـ Server-side Rendering وتقليل الـ Latency عبر تحسينات جذرية في الـ Data Fetching والـ Caching."
+  },
+  {
+    "post_number": 60,
+    "title": "Next.js 16",
+    "summary": "تحسين أداء وكفاءة Next.js 16 عبر دمج مميزات React 19 لتعزيز سرعة المعالجة، وتقليل حجم البيانات، وتحسين تجربة المستخدم."
   }
 ]
