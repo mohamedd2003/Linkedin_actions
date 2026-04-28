@@ -323,5 +323,10 @@
     "post_number": 65,
     "title": "Next.js 16",
     "summary": "تحسين أداء وتجربة تطوير تطبيقات Next.js 16 عبر إعادة هيكلة الـ App Router والاعتماد الكلي على مميزات React 19 الحديثة."
+  },
+  {
+    "post_number": 66,
+    "title": "Next.js 16",
+    "summary": "تحديث Next.js 16 يمثل ثورة تقنية في الأداء وتجربة المطورين عبر دمج ميزات React الجديدة لتحقيق أقصى كفاءة في الـ Rendering والـ Server Actions."
   }
 ]
