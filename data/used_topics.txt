@@ -328,5 +328,10 @@
     "post_number": 66,
     "title": "Next.js 16",
     "summary": "تحديث Next.js 16 يمثل ثورة تقنية في الأداء وتجربة المطورين عبر دمج ميزات React الجديدة لتحقيق أقصى كفاءة في الـ Rendering والـ Server Actions."
+  },
+  {
+    "post_number": 67,
+    "title": "Next.js 16",
+    "summary": "استعراض التحديثات التقنية في نسخة Next.js الجديدة لتعزيز الأداء وتجربة المطورين بالاعتماد على مميزات React 19 والـ Partial Prerendering."
   }
 ]
