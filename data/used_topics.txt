@@ -333,5 +333,10 @@
     "post_number": 67,
     "title": "Next.js 16",
     "summary": "استعراض التحديثات التقنية في نسخة Next.js الجديدة لتعزيز الأداء وتجربة المطورين بالاعتماد على مميزات React 19 والـ Partial Prerendering."
+  },
+  {
+    "post_number": 68,
+    "title": "Next.js 16",
+    "summary": "تطوير بنية Next.js 16 بالاعتماد على React 19.2 لتحقيق أقصى أداء في الـ Rendering وتقليل حجم الـ Bundle وتحسين تجربة المطورين."
   }
 ]
