@@ -338,5 +338,10 @@
     "post_number": 68,
     "title": "Next.js 16",
     "summary": "تطوير بنية Next.js 16 بالاعتماد على React 19.2 لتحقيق أقصى أداء في الـ Rendering وتقليل حجم الـ Bundle وتحسين تجربة المطورين."
+  },
+  {
+    "post_number": 69,
+    "title": "Next.js 16",
+    "summary": "تحديث Next.js 16 يحدث ثورة في أداء وكفاءة تطبيقات الـ Full-stack عبر دمج مميزات React 19 وتقنيات الـ Rendering المتقدمة."
   }
 ]
