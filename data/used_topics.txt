@@ -373,5 +373,10 @@
     "post_number": 75,
     "title": "Next.js 16",
     "summary": "تحسين أداء وتجربة تطوير تطبيقات Next.js 16 عبر التكامل العميق مع مميزات React 19 Canary والـ Compiler الجديد."
+  },
+  {
+    "post_number": 76,
+    "title": "Next.js 16",
+    "summary": "تطوير أداء وكفاءة Next.js 16 عبر أتمتة الـ memoization، واستقرار Turbopack، وتقديم هندسة caching متطورة للـ components."
   }
 ]
