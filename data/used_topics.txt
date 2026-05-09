@@ -378,5 +378,10 @@
     "post_number": 76,
     "title": "Next.js 16",
     "summary": "تطوير أداء وكفاءة Next.js 16 عبر أتمتة الـ memoization، واستقرار Turbopack، وتقديم هندسة caching متطورة للـ components."
+  },
+  {
+    "post_number": 77,
+    "title": "Next.js 16",
+    "summary": "تحسين أداء وكفاءة Next.js 16 عبر دعم ميزات React 19 المتقدمة وتطوير معمارية معالجة البيانات وسرعة بيئة التطوير."
   }
 ]
