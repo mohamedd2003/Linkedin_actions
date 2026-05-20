@@ -433,5 +433,10 @@
     "post_number": 87,
     "title": "Next.js 16",
     "summary": "تطوير Next.js 16 للأداء وتجربة المستخدم عبر التكامل العميق مع مميزات React 19 وتقنيات الـ Server Components والـ Actions."
+  },
+  {
+    "post_number": 88,
+    "title": "Next.js by Vercel - The React Framework",
+    "summary": "يركز تحديث Next.js 16 على ثورة في تحسين الأداء (Runtime Optimization) عبر تقنيات متطورة لتقليل تكلفة الـ hydration وتسريع معالجة البيانات والـ caching."
   }
 ]
