@@ -438,5 +438,10 @@
     "post_number": 88,
     "title": "Next.js by Vercel - The React Framework",
     "summary": "يركز تحديث Next.js 16 على ثورة في تحسين الأداء (Runtime Optimization) عبر تقنيات متطورة لتقليل تكلفة الـ hydration وتسريع معالجة البيانات والـ caching."
+  },
+  {
+    "post_number": 89,
+    "title": "Web Vitals | Articles - web.dev",
+    "summary": "تحسين تجربة المستخدم التقنية عبر الفهم العميق لعمليات المتصفح (Rendering Pipeline) لرفع كفاءة مؤشرات الـ Core Web Vitals."
   }
 ]
