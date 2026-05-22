@@ -443,5 +443,10 @@
     "post_number": 89,
     "title": "Web Vitals | Articles - web.dev",
     "summary": "تحسين تجربة المستخدم التقنية عبر الفهم العميق لعمليات المتصفح (Rendering Pipeline) لرفع كفاءة مؤشرات الـ Core Web Vitals."
+  },
+  {
+    "post_number": 90,
+    "title": "React Server Components Your Way | TanStack Blog",
+    "summary": "توضيح أهمية الـ RSCs كمعمارية لجلب البيانات وتحسين الأداء، مع التركيز على ميزة فصل المواصفات التقنية عن إطار العمل لضمان مرونة التصميم."
   }
 ]
