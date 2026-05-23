@@ -448,5 +448,10 @@
     "post_number": 90,
     "title": "React Server Components Your Way | TanStack Blog",
     "summary": "توضيح أهمية الـ RSCs كمعمارية لجلب البيانات وتحسين الأداء، مع التركيز على ميزة فصل المواصفات التقنية عن إطار العمل لضمان مرونة التصميم."
+  },
+  {
+    "post_number": 91,
+    "title": "TypeScript Best Practices for Large-Scale Web Applications",
+    "summary": "استخدام الـ Advanced TypeScript Utility Types والـ Generics لبناء Codebase مرن وآمن يقلل الأخطاء ويسهل التوسع في المشاريع الكبيرة."
   }
 ]
