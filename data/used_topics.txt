@@ -458,5 +458,10 @@
     "post_number": 92,
     "title": "Guides: Package Bundling - Next.js",
     "summary": "استراتيجيات وتقنيات تحسين حجم الـ Bundling في Next.js لرفع كفاءة الأداء وتقليل وقت التحميل (TTI)."
+  },
+  {
+    "post_number": 93,
+    "title": "How we used module federation to implement micro frontends",
+    "summary": "شرح تقنية Module Federation ودورها في تحسين أداء الـ Micro-frontends عبر مشاركة المكتبات وإدارة التبعيات في وقت التشغيل (Runtime) بدلاً من وقت البناء (Build time)."
   }
 ]
