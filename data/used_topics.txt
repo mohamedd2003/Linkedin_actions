@@ -463,5 +463,10 @@
     "post_number": 93,
     "title": "How we used module federation to implement micro frontends",
     "summary": "شرح تقنية Module Federation ودورها في تحسين أداء الـ Micro-frontends عبر مشاركة المكتبات وإدارة التبعيات في وقت التشغيل (Runtime) بدلاً من وقت البناء (Build time)."
+  },
+  {
+    "post_number": 94,
+    "title": "Routing: Middleware - Next.js",
+    "summary": "دور الـ Middleware في Next.js في تحسين الأداء وتخصيص تجربة المستخدم عبر معالجة الطلبات في الـ Edge Runtime قبل وصولها للسيرفر."
   }
 ]
