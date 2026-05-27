@@ -468,5 +468,10 @@
     "post_number": 94,
     "title": "Routing: Middleware - Next.js",
     "summary": "دور الـ Middleware في Next.js في تحسين الأداء وتخصيص تجربة المستخدم عبر معالجة الطلبات في الـ Edge Runtime قبل وصولها للسيرفر."
+  },
+  {
+    "post_number": 95,
+    "title": "Difference between partial rendering(PPR) and the current ... - GitHub",
+    "summary": "تقنية الـ PPR تدمج بين الـ Static Shell والـ Dynamic Streaming على مستوى المكونات لتحسين سرعة الاستجابة وتجربة المستخدم."
   }
 ]
