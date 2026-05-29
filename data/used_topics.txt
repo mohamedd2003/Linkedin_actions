@@ -478,5 +478,10 @@
     "post_number": 96,
     "title": "How to implement Micro-Frontends in Next.js now that ... - GitHub",
     "summary": "التحديات التقنية وحلول ضبط الـ Micro-frontends في Next.js باستخدام Module Federation مع ضمان استقرار الـ SSR وتوافق التبعيات."
+  },
+  {
+    "post_number": 97,
+    "title": "Next.js 16",
+    "summary": "تحسين الأداء وتجربة المطور في Next.js 16 عبر دمج ميزات React 19 وتقنيات رندر ومعالجة أسرع."
   }
 ]
