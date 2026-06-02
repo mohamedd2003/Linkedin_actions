@@ -498,5 +498,10 @@
     "post_number": 100,
     "title": "A closer look at partial prerendering - DEV Community",
     "summary": "تقنية الـ PPR تدمج بين الـ Static Shell والـ Dynamic Streaming لرفع أداء الويب وتقليل زمن الاستجابة (TTFB) عبر معالجة الأجزاء الثابتة والمتحركة بالتوازي."
+  },
+  {
+    "post_number": 101,
+    "title": "React v19 Discussion · react-hook-form · Discussion #11832 - GitHub",
+    "summary": "تأثير تحديثات React 19 وServer Actions على تطوير النماذج (Forms) وتكاملها مع مكتبة react-hook-form لتعزيز الأداء وتجربة المستخدم."
   }
 ]
