@@ -503,5 +503,10 @@
     "post_number": 101,
     "title": "React v19 Discussion · react-hook-form · Discussion #11832 - GitHub",
     "summary": "تأثير تحديثات React 19 وServer Actions على تطوير النماذج (Forms) وتكاملها مع مكتبة react-hook-form لتعزيز الأداء وتجربة المستخدم."
+  },
+  {
+    "post_number": 102,
+    "title": "Core Web Vitals in 2026: The Practical Fixes for INP, LCP, and CLS ...",
+    "summary": "استراتيجيات تقنية متقدمة لتحسين مؤشرات أداء الويب (Core Web Vitals) عبر فهم آليات عمل المتصفح لرفع كفاءة تجربة المستخدم."
   }
 ]
