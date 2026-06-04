@@ -508,5 +508,10 @@
     "post_number": 102,
     "title": "Core Web Vitals in 2026: The Practical Fixes for INP, LCP, and CLS ...",
     "summary": "استراتيجيات تقنية متقدمة لتحسين مؤشرات أداء الويب (Core Web Vitals) عبر فهم آليات عمل المتصفح لرفع كفاءة تجربة المستخدم."
+  },
+  {
+    "post_number": 103,
+    "title": "PPR Platform Guide",
+    "summary": "يوضح المنشور تقنية الـ Partial Prerendering في Next.js التي تدمج بين المحتوى الثابت والديناميكي عبر الـ Streaming لتحسين سرعة استجابة المواقع وتجربة المستخدم."
   }
 ]
