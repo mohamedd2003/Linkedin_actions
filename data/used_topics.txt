@@ -513,5 +513,10 @@
     "post_number": 103,
     "title": "PPR Platform Guide",
     "summary": "يوضح المنشور تقنية الـ Partial Prerendering في Next.js التي تدمج بين المحتوى الثابت والديناميكي عبر الـ Streaming لتحسين سرعة استجابة المواقع وتجربة المستخدم."
+  },
+  {
+    "post_number": 104,
+    "title": "Next.js form validation on the client and server with Zod",
+    "summary": "توحيد منطق التحقق من البيانات (Validation) بين العميل والخادم في Next.js باستخدام Zod لضمان سلامة البيانات وتطابق الأنواع (Type Safety)."
   }
 ]
