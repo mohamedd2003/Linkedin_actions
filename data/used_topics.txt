@@ -528,5 +528,10 @@
     "post_number": 106,
     "title": "Sharing a form validation schema between server and client #52652",
     "summary": "توحيد الـ Validation Schema باستخدام Zod لضمان الـ Type Safety وتجنب تكرار الكود بين الـ Client والـ Server."
+  },
+  {
+    "post_number": 107,
+    "title": "How to create forms with Server Actions",
+    "summary": "توظيف الـ Server Actions في Next.js لتحسين الأداء والأمان وتسهيل إدارة البيانات بين الـ UI والخادم مع ضمان استمرارية التشغيل (Progressive Enhancement)."
   }
 ]
