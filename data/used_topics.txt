@@ -533,5 +533,10 @@
     "post_number": 107,
     "title": "How to create forms with Server Actions",
     "summary": "توظيف الـ Server Actions في Next.js لتحسين الأداء والأمان وتسهيل إدارة البيانات بين الـ UI والخادم مع ضمان استمرارية التشغيل (Progressive Enhancement)."
+  },
+  {
+    "post_number": 108,
+    "title": "Guides: Forms - Next.js",
+    "summary": "تطوير نماذج البيانات (Forms) في Next.js باستخدام الـ Server Actions وZod لضمان تجربة مستخدم سريعة وأمان عالٍ وتزامن لحظي للبيانات."
   }
 ]
