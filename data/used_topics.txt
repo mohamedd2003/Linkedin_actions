@@ -543,5 +543,10 @@
     "post_number": 109,
     "title": "Next.js 16",
     "summary": "تحسين أداء وكفاءة Next.js 16 من خلال التكامل العميق مع ميزات React 19 لتعزيز الـ Rendering وتجربة المستخدم."
+  },
+  {
+    "post_number": 110,
+    "title": "Next.js 16",
+    "summary": "تطوير بنية Next.js 16 بالاعتماد على React 19 لتعزيز الأداء عبر نهج الـ Server-first وتحسين كفاءة الـ Rendering."
   }
 ]
