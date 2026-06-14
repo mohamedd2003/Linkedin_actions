@@ -558,5 +558,10 @@
     "post_number": 112,
     "title": "Next.js 16",
     "summary": "استعراض النقلة النوعية في أداء ومعمارية Next.js 16 بفضل التكامل العميق مع تقنيات React 19 والـ Partial Prerendering."
+  },
+  {
+    "post_number": 113,
+    "title": "Next.js 16",
+    "summary": "تحسين أداء وسرعة Next.js 16 عبر الاستفادة من ميزات React 19 لتطوير السيرفر كومبوننتس وتقليل حجم الباندل."
   }
 ]
