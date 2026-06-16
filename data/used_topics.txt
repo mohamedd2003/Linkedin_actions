@@ -568,5 +568,10 @@
     "post_number": 114,
     "title": "Next.js 16",
     "summary": "تحسين أداء وكفاءة Next.js 16 عبر التكامل العميق مع React 19 لتطوير عمليات الرندرة، تقليل حجم البيانات، وتسريع تجربة التطوير."
+  },
+  {
+    "post_number": 115,
+    "title": "The latest Next.js news",
+    "summary": "تطوير بنية الـ Route Handlers في Next.js لتحسين الأداء ودعم الـ Streaming والتكامل العميق مع نظام التخزين المؤقت (Caching)."
   }
 ]
