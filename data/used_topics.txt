@@ -573,5 +573,10 @@
     "post_number": 115,
     "title": "The latest Next.js news",
     "summary": "تطوير بنية الـ Route Handlers في Next.js لتحسين الأداء ودعم الـ Streaming والتكامل العميق مع نظام التخزين المؤقت (Caching)."
+  },
+  {
+    "post_number": 116,
+    "title": "React Server Components: Complete Deep Dive",
+    "summary": "تحسين أداء تطبيقات الويب عبر نقل منطق التنفيذ للسيرفر وتقليل حجم الـ JavaScript المرسل للمتصفح باستخدام تقنية React Server Components."
   }
 ]
