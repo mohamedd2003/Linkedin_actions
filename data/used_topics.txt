@@ -578,5 +578,10 @@
     "post_number": 116,
     "title": "React Server Components: Complete Deep Dive",
     "summary": "تحسين أداء تطبيقات الويب عبر نقل منطق التنفيذ للسيرفر وتقليل حجم الـ JavaScript المرسل للمتصفح باستخدام تقنية React Server Components."
+  },
+  {
+    "post_number": 117,
+    "title": "Getting Started: Partial Prerendering - Next.js",
+    "summary": "تقنية الـ PPR في Next.js تدمج بين الـ Static Shell والـ Dynamic Streaming لتحسين سرعة الاستجابة وكفاءة الـ Rendering على مستوى الـ Component."
   }
 ]
