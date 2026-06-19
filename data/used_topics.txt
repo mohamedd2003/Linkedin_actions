@@ -583,5 +583,10 @@
     "post_number": 117,
     "title": "Getting Started: Partial Prerendering - Next.js",
     "summary": "تقنية الـ PPR في Next.js تدمج بين الـ Static Shell والـ Dynamic Streaming لتحسين سرعة الاستجابة وكفاءة الـ Rendering على مستوى الـ Component."
+  },
+  {
+    "post_number": 118,
+    "title": "Responsive design - Core concepts - Tailwind CSS",
+    "summary": "التحول من الـ Media Queries إلى الـ Container Queries لتحقيق مرونة كاملة للمكونات البرمجية بناءً على حجم العنصر الأب بدلاً من شاشة العرض."
   }
 ]
