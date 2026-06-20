@@ -588,5 +588,10 @@
     "post_number": 118,
     "title": "Responsive design - Core concepts - Tailwind CSS",
     "summary": "التحول من الـ Media Queries إلى الـ Container Queries لتحقيق مرونة كاملة للمكونات البرمجية بناءً على حجم العنصر الأب بدلاً من شاشة العرض."
+  },
+  {
+    "post_number": 119,
+    "title": "Next.js 16",
+    "summary": "تطوير بنية Next.js لتعزيز الأداء وسرعة الاستجابة عبر دمج ميزات React 19 وتقنيات الرندرة المتقدمة من جهة السيرفر."
   }
 ]
