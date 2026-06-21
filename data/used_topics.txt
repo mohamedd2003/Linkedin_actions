@@ -593,5 +593,10 @@
     "post_number": 119,
     "title": "Next.js 16",
     "summary": "تطوير بنية Next.js لتعزيز الأداء وسرعة الاستجابة عبر دمج ميزات React 19 وتقنيات الرندرة المتقدمة من جهة السيرفر."
+  },
+  {
+    "post_number": 120,
+    "title": "Form Validation, Zod and Server Actions #11209 - GitHub",
+    "summary": "تحقيق أمان البيانات (Type Safety) وتوحيد التحقق منها عبر دمج Zod مع React Hook Form وServer Actions في Next.js كمرجع وحيد للـ Schema."
   }
 ]
