@@ -598,5 +598,10 @@
     "post_number": 120,
     "title": "Form Validation, Zod and Server Actions #11209 - GitHub",
     "summary": "تحقيق أمان البيانات (Type Safety) وتوحيد التحقق منها عبر دمج Zod مع React Hook Form وServer Actions في Next.js كمرجع وحيد للـ Schema."
+  },
+  {
+    "post_number": 121,
+    "title": "Text content does not match server-rendered HTML | Next.js",
+    "summary": "أسباب حدوث مشكلة الـ Hydration Mismatch في React/Next.js وكيفية معالجتها لضمان تطابق البيانات بين السيرفر والمتصفح."
   }
 ]
