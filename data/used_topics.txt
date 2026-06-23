@@ -603,5 +603,10 @@
     "post_number": 121,
     "title": "Text content does not match server-rendered HTML | Next.js",
     "summary": "أسباب حدوث مشكلة الـ Hydration Mismatch في React/Next.js وكيفية معالجتها لضمان تطابق البيانات بين السيرفر والمتصفح."
+  },
+  {
+    "post_number": 122,
+    "title": "Bundler Tree Shaking Principles and Differences #29 - GitHub",
+    "summary": "تطور آليات الـ Tree Shaking في أدوات الحزم (Bundlers) من التحليل الساكن إلى المعالجة البرمجية المتقدمة لتقليل حجم الكود وتحسين الأداء."
   }
 ]
