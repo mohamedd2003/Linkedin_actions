@@ -608,5 +608,10 @@
     "post_number": 122,
     "title": "Bundler Tree Shaking Principles and Differences #29 - GitHub",
     "summary": "تطور آليات الـ Tree Shaking في أدوات الحزم (Bundlers) من التحليل الساكن إلى المعالجة البرمجية المتقدمة لتقليل حجم الكود وتحسين الأداء."
+  },
+  {
+    "post_number": 123,
+    "title": "Next.js 16",
+    "summary": "تحديث Next.js 16 يرفع كفاءة الأداء وتجربة التطوير عبر دمج مميزات React 19 الجديدة وتحسين تقنيات الـ Rendering والـ Server Components."
   }
 ]
