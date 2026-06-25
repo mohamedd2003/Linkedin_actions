@@ -613,5 +613,10 @@
     "post_number": 123,
     "title": "Next.js 16",
     "summary": "تحديث Next.js 16 يرفع كفاءة الأداء وتجربة التطوير عبر دمج مميزات React 19 الجديدة وتحسين تقنيات الـ Rendering والـ Server Components."
+  },
+  {
+    "post_number": 124,
+    "title": "React v19",
+    "summary": "تطوير React 19 لإدارة الحالة (State Management) عبر \"الأكشنز\" والهوكس الجديدة لتبسيط التعامل مع العمليات غير المتزامنة وتحسين الأداء وتجربة المستخدم."
   }
 ]
