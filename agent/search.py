@@ -76,7 +76,20 @@ class SearchEngine:
                                 'link': result.get('link', ''),
                                 'source': result.get('source', '')
                             })
+                else:
+                    try:
+                        error_detail = response.json().get('message', response.text[:200])
+                    except Exception:
+                        error_detail = response.text[:200]
+                    print(f"      Search API error {response.status_code} for '{query[:50]}': {error_detail}")
+                    if response.status_code in (401, 403):
+                        raise ValueError(
+                            f"Serper API authentication failed ({response.status_code}). "
+                            "Verify that SERPER_API_KEY is set correctly."
+                        )
             
+            except ValueError:
+                raise
             except Exception as e:
                 print(f"Error searching for {query}: {e}")
                 continue
